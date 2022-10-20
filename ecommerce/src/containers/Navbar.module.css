@@ -1,0 +1,30 @@
+.Nav {
+    background: rgb(65, 94, 65);
+    padding: 0;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 5rem;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    justify-items: left;
+    margin-left: 5rem;
+    position: relative;
+    top: 10px;
+    left: 10rem;
+}
