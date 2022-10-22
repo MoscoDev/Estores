@@ -1,0 +1,10 @@
+.autum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.autum img{
+    height: 60vh;
+    width: 100vw;
+    margin-right: 5rem;
+}

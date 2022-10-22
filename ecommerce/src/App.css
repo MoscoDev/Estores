@@ -1,3 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: rgb(196, 192, 192);
+}
+.But {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
+    padding: 10px;
+}
+button {
+    font-size: 1.5rem;
+    border: 1px solid green;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    background: rgb(4, 92, 4);
+}
+footer {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;  
+    margin-left: 10rem; 
+}
+h2 {
+    font-size: 1.5rem;
+    margin-top: 6rem;
+    position: relative;
+    top: 10px;
+    left: -12%;
+}
+
+@media screen and (min-width: 480px) {
+    .Nav {
+        background: black;
+    }
 }

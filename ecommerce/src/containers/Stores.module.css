@@ -1,0 +1,34 @@
+.store1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+    height: 50vh;
+    border: 2px solid grey;
+}
+.store1 img {
+    height: 30vh;
+    margin-top: 2rem;
+}
+.retailer, img {
+    margin-left: 8.5rem;
+}
+.text, h1 {
+    font-style: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    height: 50vh;
+    border: 2px solid grey;
+}
+.house img {
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+
