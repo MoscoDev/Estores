@@ -4,12 +4,16 @@ import { faShop,  faUser, faCircleInfo, faHeart } from '@fortawesome/free-solid-
 
 const Footer = () => {
     return (
-        <Footer>
-            <h2><FontAwesomeIcon icon={faShop} />Shop</h2>
-            <h2><FontAwesomeIcon icon={faUser} />Account</h2>
-            <h2><FontAwesomeIcon icon={faCircleInfo} />Help</h2>
-            <h2><FontAwesomeIcon icon={faHeart} />Saved</h2>
-        </Footer>
+        <footer>
+            <FontAwesomeIcon icon={faShop} />
+            <h2>Shop</h2>
+            <FontAwesomeIcon icon={faUser} />
+            <h2>Account</h2>
+            <FontAwesomeIcon icon={faCircleInfo} />
+            <h2>Help</h2>
+            <FontAwesomeIcon icon={faHeart} />
+            <h2>Saved</h2>
+        </footer>
     )
 }
 
